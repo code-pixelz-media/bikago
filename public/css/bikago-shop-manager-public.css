@@ -1,0 +1,647 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+a.btn-buynew.hidden,
+.hidden {
+    display: none;
+}
+
+a.btn-buynew,
+.submitbtn {
+    padding: 20px 40px !important;
+    background: #00c213 linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%) !important;
+    margin: 20px 0;
+    border: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #FFF;
+    display: inline-block;
+}
+
+a:hover.btn-buynew,
+.submitbtn:hover {
+    background: #0f8f1b linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%) !important;
+    padding: 20px 40px !important;
+    margin: 20px 0;
+    border: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #FFF;
+    display: inline-block;
+}
+
+
+/*.physical-sim-option {
+    width: 33%;
+    float: left;
+    display: flex;
+}*/
+
+.physical-sim-option input[type=file], 
+.physical-sim-option input[type=checkbox], 
+.physical-sim-option input[type=radio]{
+    margin: 0;
+}
+
+.form-physical-sim {
+    margin: 0 0 1.5rem 0;
+}
+
+.form-physical-sim-section{
+    display: none;
+}
+.form-physical-sim-section.active{
+    display: block;
+}
+
+input[type=checkbox] + label, input[type=radio] + label {
+    margin-right: 0;
+    /* padding: 4px; */
+}
+
+.sim-header-pills {
+    display: block;
+}
+
+.sim-header-pill {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-right: 10px;
+    border: 3px solid #8e8e8e;
+    font-size: 12px;
+}
+
+.sim-header-pill:last-child {
+    margin-right: 0px;
+}
+
+
+.landing-main-slider {
+    position: relative;
+}
+
+.landing-main-slider:before {
+    position: absolute;
+    /*     content: ''; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 99;
+    background: #6A0F67;
+    clip-path: polygon(0% 0, 101% 100%, 100% 100%, 0% 100%);
+}
+
+.n2-ss-control-bullet-horizontal {
+    --widget-offset: 65px !important;
+}
+
+.landing-tab-section .elementor-tabs-content-wrapper {
+    border: 1px dotted #000 !important;
+    padding: 20px;
+    margin: 0 12px;
+}
+
+.landing-tab-section .elementor-tab-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 12px;
+    margin-bottom: 30px;
+    border: 2px solid !important;
+    border-radius: 5px;
+    padding: 0 !important;
+    min-width: 200px;
+    text-align: center;
+}
+
+.landing-tab-section .elementor-tab-title a {
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+.landing-tab-section .elementor-tab-title.elementor-active {
+    border: 0 !important;
+    background: #5FBB48;
+    color: #FFF !important;
+}
+
+.landing-tab-section .elementor-tab-title.elementor-active:after {
+    display: none !important;
+}
+
+.landing-tab-section .elementor-tab-content {
+    padding: 0 !important;
+}
+
+.landing-tab-section .elementor-tab-content label {
+    color: #2B2D42;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.landing-tab-section .elementor-tab-content input {
+    margin-bottom: 20px;
+    border-radius: 5px !important;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 3%), 0px 3px 6px rgb(0 0 0 / 2%);
+}
+
+.landing-tab-section .elementor-tab-content input[type=submit] {
+    padding: 20px 40px !important;
+    background: #FDB02A linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%) !important;
+    margin-top: 20px;
+    border: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.landing-tab-section .elementor-tab-content input[type=submit]:hover {
+    background: #FDB02A !important;
+}
+
+.landing-tab-section .elementor-tab-content input[type=file] {
+    padding: 10px;
+    line-height: 1;
+    border: 1px solid #DDE0E7;
+    height: auto;
+}
+
+.landing-tab-section .elementor-tab-content input[type=file]:after {
+    padding: 15px 10px;
+    line-height: 1;
+}
+
+.landing-tab-section .elementor-tab-content input:-internal-autofill-selected {
+    background: unset;
+}
+
+.up-slanted-bar {
+    position: relative;
+}
+
+.up-slanted-bar:before {
+    position: absolute;
+    content: '';
+    top: -99px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 99;
+    background: #2B2D42;
+    clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0% 100%);
+}
+
+.landing-tab-section .wpcf7-form {
+    width: 100%;
+    padding: 15px;
+}
+
+.location-price {
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+}
+
+.esim-pkg-location {
+    background: #FDB02A;
+    padding: 20px 40px;
+   color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.esim-pkg-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* PRICING TABLE CSS */
+
+.eael-pricing .header,
+.eael-pricing-tag {
+    text-align: center;
+}
+
+.eael-pricing .price-tag {
+    padding-left: 0 !important;
+}
+
+.eael-pricing  span.icon {
+    display: none;
+    margin: 0 !important;
+}
+
+.eael-pricing-tag:after{
+    display: none;
+}
+.eael-pricing-tag {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    background: #FDB02A;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 50%;
+    border: 0;
+}
+
+.eael-pricing .eael-pricing-item {
+/*  border: 0 !important; */
+}
+ .eael-pricing .eael-pricing-item:before {
+    top: 100px !important;
+/*     right: 5% !important;
+    width: 90% !important; */
+    text-align: center;
+    border-radius: 50px;
+         border: 1px solid #2B2D42;
+     padding: 2px 10px !important;
+     text-transform: unset !important;
+}
+.eael-pricing .eael-pricing-item.featured .header:after {
+        background: unset !important;
+}
+
+.eael-pricing .header {
+    margin-bottom: 50px !important;
+}
+
+.eael-pricing .eael-pricing-item {
+    overflow: hidden;
+}
+
+.eael-pricing .eael-pricing-item.featured {
+    box-shadow: none !important;
+}
+
+/* POPUP SEETTINGS */
+.pum-theme-1107, .pum-theme-default-theme {
+    background-color: rgba( 0, 0, 0, 0.25 );
+}
+
+.pum-theme-1107 .pum-container, .pum-theme-default-theme .pum-container {
+  
+    background-color: #FFF;
+}
+
+
+.pum-theme-1107 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    background:#000;
+}
+
+/* ACCORDION CSS */
+.faq-accordion .elementor-accordion .elementor-tab-title {
+  
+    line-height: 2;
+}
+.faq-accordion .elementor-accordion .elementor-accordion-item {
+    border-bottom: 1px solid #d4d4d4 !important;
+}
+
+.sim-feature-toggle {
+    margin-bottom: 40px;
+    display:none;
+}
+
+.sim-feature-toggle.active{
+    display: block;
+}
+
+.sim-feature-toggle a {
+    color: #2B2D42;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.hide {
+    display:none;
+}
+@media screen and (max-width:991px) {
+    .landing-main-slider:before {
+        height: 50px;
+    }
+    .up-slanted-bar:before {
+        top: -49px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .landing-tab-section .elementor-tabs-wrapper {
+        /*         display: flex !important; */
+        flex-direction: row;
+        white-space: nowrap;
+        display: inline-block !important;
+        width: 100%;
+        overflow: scroll !important;
+    }
+    .landing-tab-section .elementor-tab-mobile-title {
+        display: none;
+    }
+    .landing-tab-section .elementor-tab-title {
+        padding: 20px 15px !important;
+        /*         max-width: 205px; */
+        text-align: center;
+        margin: 0 5px 30px;
+        width: 100%;
+        justify-content: center;
+        min-width: auto;
+    }
+    .landing-tab-section.elementor-tabs-view-horizontal .elementor-tab-desktop-title {
+        /*         display: flex !important; */
+        align-items: center;
+        display: inline-block !important;
+        min-width: 230px;
+        width: auto;
+        max-width: unset !important;
+    }
+    .landing-tab-section .elementor-tab-title a {
+        padding: 0;
+    }
+    
+    .esim-pkg-location {
+     padding: 15px 30px;
+}
+}
+
+@media screen and (max-width: 403px) {
+    .pricing-table-two .eael-pricing .eael-pricing-item:before {
+    top: 140px !important;
+}
+}
+
+/* NEW SIM SELECTION CSS */
+.custom-conatiner {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+}
+
+.col-half {
+    width: 50%;
+}
+
+.switch input[type="radio"] {
+    width: 300px;
+    left: -240px;
+    top: -8px;
+    height: 36px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    margin-bottom: 0;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #5FBB48;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #5FBB48;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.sim-options-wrapper {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.sim-option {
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: auto;
+    /* display: inline; */
+}
+
+.sim-option i {
+    margin-right: 5px;
+}
+
+.sim-option p {
+    margin: 0;
+    display: inline-block;
+    background-color: #5FBB4855;
+    border-radius: 50px;
+    padding: 5px 10px;
+    min-width: 150px;
+}
+
+.sim-option.active p,
+.toggle-icon.active {
+    background-color: #5fbb4899;
+}
+
+.toggle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5FBB4833;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.toggle-icon p {
+    margin: 0;
+}
+
+.buy-now button {
+    padding: 16px 32px;
+    background-color: #5fbb48;
+    border: 0;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+i.fab.fa-whatsapp {
+    color: #55be53;
+}
+
+.sim-header-pill input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+/*.sim-header-pill {
+    position:  relative;
+    cursor: pointer;
+}*/
+
+.sim-header-pill.has-checked {
+    background: #efefef;
+}
+
+/*
+input.submitbtn {
+    padding: 16px 32px;
+    background-color: #5fbb48;
+    border: 0;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-top: 10px;
+}*/
+
+.bicago-esim-form-holder {
+    max-width: 600px;
+    margin: auto;
+}
+
+.bicago-esim-form-holder {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px 0px #ddd;
+}
+
+#webkulMap {
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.physical-sim-delivery-option{
+    display: none;
+}
+
+.physical-sim-delivery-option.active {
+    display: block;
+}
+
+button#locationBtn {
+    padding: 0px 10px;
+    flex: 1 2 100%;
+    /* margin-right: 15px; */
+}
+
+input#google_map_location {
+    flex: 1 1 100%;
+    margin-right: 15px;
+}
+
+.search-button-holder {
+    display: flex;
+}
+
+input.submitbtn.btn-mobile-disabled,
+input.submitbtn.btn-email-disabled {
+    border: none;
+    background-image: none;
+    opacity: .4;
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    pointer-events: none;
+}
+
+.iti{
+      width: 100%;
+}
+
+.invalid-feedback{
+    display: none;
+}
+
+.valid-feedback{
+    display: none;
+}
+.thank-you-notice {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+input#pac-input {
+    /* padding: 5px 10px; */
+    height: 40px;
+}
+
+#pac-card {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    left: 10px;
+    top: 10px !important;
+    padding: 0;
+}
+
+#pac-container {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 50%;
+    margin: auto;
+    right: 25%;
+}
